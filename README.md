@@ -63,3 +63,47 @@ To generate a service without a `.spec` file add the following switch at the end
 By default a spec file will be generated.
 
 ## API Endpoints
+
+## Validation pipes
+
+```shell
+$ npm install class-validator class-transformer
+```
+
+[class-validator](https://www.npmjs.com/package/class-validator)
+
+[class-transformer](https://www.npmjs.com/package/class-transformer)
+
+...
+
+## PostgreSQL via Docker
+
+Running PostgreSQL via Docker
+
+```shell
+$ docker run --name postgres-nest -p 5432:5432 -e POSTGRES_PASSWORD=postgres -d postgres
+```
+
+Make sure the container is running, type:
+
+```shell
+$ docker container ls
+```
+
+Stop the container, type:
+
+```shell
+$ docker container stop postgres-nest
+```
+
+Start the container again: type:
+
+```shell
+$ docker container start postgres-nest
+```
+
+Delete the container, type:
+
+```shell
+$ docker container rm postgres-nest
+```
