@@ -107,3 +107,11 @@ Delete the container, type:
 ```shell
 $ docker container rm postgres-nest
 ```
+
+## TypeORM - Object Relational Mapping
+
+Install necessary packages:
+
+```shell
+$ npm i typeorm @nestjs/typeorm pg
+```
